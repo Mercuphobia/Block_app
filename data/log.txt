@@ -1,0 +1,4 @@
+[DEBUG] parsers_option, 68: test8
+[ERROR] test3: src/parsers_option.c, parsers_option, 77
+[WARN] test4: src/parsers_option.c, parsers_option, 78
+[DEBUG] test5: src/parsers_option.c, parsers_option, 79

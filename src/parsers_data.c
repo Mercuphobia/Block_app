@@ -6,32 +6,26 @@
 char line[256];
 
 website_block* read_block_web(const char *filename, int *line_count) {
-    website_block *list_block_web = NULL; // Con trỏ cho mảng động
-    *line_count = 0;        // Khởi tạo số dòng đã đọc
-    int capacity = 10;      // Số lượng dòng tối đa ban đầu
-
-    // Cấp phát bộ nhớ cho mảng động
+    website_block *list_block_web = NULL;
+    *line_count = 0;
+    int capacity = 10;
     list_block_web = malloc(capacity * sizeof(website_block));
     if (list_block_web == NULL) {
-        perror("Không thể cấp phát bộ nhớ");
+        perror("Unable to allocate memory");
         return NULL;
     }
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
-        perror("Không thể mở file");
+        perror("Unable to open file");
         free(list_block_web);
         return NULL;
     }
-
-    // char line[256]; // Biến để lưu từng dòng đọc được
-
     while (fgets(line, sizeof(line), file)) {
-        // Tăng kích thước mảng nếu cần
         if (*line_count >= capacity) {
-            capacity *= 2; // Gấp đôi kích thước mảng
+            capacity *= 2;
             list_block_web = realloc(list_block_web, capacity * sizeof(website_block));
             if (list_block_web == NULL) {
-                perror("Không thể cấp phát lại bộ nhớ");
+                perror("Unable to allocate memory");
                 fclose(file);
                 return NULL;
             }
@@ -92,12 +86,12 @@ website_info* read_data_file(const char *filename, int *entry_count) {
     int capacity = 10;
     list_web = malloc(capacity * sizeof(website_info));
     if (list_web == NULL) {
-        perror("Không thể cấp phát bộ nhớ");
+        perror("Unable to allocate memory");
         return NULL;
     }
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
-        perror("Không thể mở file");
+        perror("Unable to open file");
         free(list_web);
         return NULL;
     }
@@ -107,7 +101,7 @@ website_info* read_data_file(const char *filename, int *entry_count) {
             capacity *= 2;
             list_web = realloc(list_web, capacity * sizeof(website_info));
             if (list_web == NULL) {
-                perror("Không thể cấp phát lại bộ nhớ");
+                perror("Unable to allocate memory");
                 fclose(file);
                 return NULL;
             }
@@ -127,7 +121,6 @@ website_info* read_data_file(const char *filename, int *entry_count) {
 void print_data() {
     int entry_count = 0;
     website_info *list_web = read_data_file("./data/data.txt", &entry_count);
-    
     if (list_web == NULL) {
         return;
     }
@@ -138,7 +131,6 @@ void print_data() {
         printf("IPv4: %s\n", list_web[i].ip);
         printf("\n");
     }
-    
     free(list_web);
 }
 
@@ -147,7 +139,6 @@ web_block_info* get_ip(int *out_count) {
     website_block *list_block = read_block_web("./data/block_web.txt", &line_count);
     int entry_count = 0;
     website_info *list_info = read_data_file("./data/data.txt", &entry_count);
-
     if (list_block == NULL || list_info == NULL) {
         *out_count = 0;
         return NULL;
@@ -158,18 +149,15 @@ web_block_info* get_ip(int *out_count) {
     int result_count = 0;
     web_block_info *result_list = malloc(result_capacity * sizeof(web_block_info));
     if (result_list == NULL) {
-        perror("Không thể cấp phát bộ nhớ cho result_list");
+        perror("Unable to allocate memory");
         free(list_block);
         free(list_info);
         *out_count = 0;
         return NULL;
     }
-
     for (int i = 0; i < line_count; i++) {
         for (int j = 0; j < entry_count; j++) {
-            // So sánh trường `url` của `website_block` và `website_info`
             if (strcmp(list_block[i].url, list_info[j].url) == 0) {
-                // Kiểm tra xem IP đã được in ra chưa
                 int already_printed = 0;
                 for (int k = 0; k < printed_count; k++) {
                     if (strcmp(printed_ips[k], list_info[j].ip) == 0) {
@@ -177,24 +165,20 @@ web_block_info* get_ip(int *out_count) {
                         break;
                     }
                 }
-                // Nếu chưa in, thêm IP vào danh sách và lưu vào `result_list`
                 if (!already_printed) {
                     strncpy(printed_ips[printed_count], list_info[j].ip, MAX_LENGTH);
                     printed_count++;
-
-                    // Tăng kích thước mảng nếu cần
                     if (result_count >= result_capacity) {
                         result_capacity *= 2;
                         result_list = realloc(result_list, result_capacity * sizeof(web_block_info));
                         if (result_list == NULL) {
-                            perror("Không thể cấp phát lại bộ nhớ cho result_list");
+                            perror("Unable to allocate memory");
                             free(list_block);
                             free(list_info);
                             *out_count = 0;
                             return NULL;
                         }
                     }
-                    // Thêm thông tin vào `result_list`
                     strncpy(result_list[result_count].url, list_block[i].url, MAX_LENGTH);
                     strncpy(result_list[result_count].ip, list_info[j].ip, MAX_LENGTH);
                     strncpy(result_list[result_count].start_day, list_block[i].start_day, MAX_LENGTH);
@@ -206,10 +190,8 @@ web_block_info* get_ip(int *out_count) {
             }
         }
     }
-    // Giải phóng bộ nhớ đã cấp phát cho các danh sách gốc
     free(list_block);
     free(list_info);
-    // Trả về số lượng kết quả tìm được
     *out_count = result_count;
     return result_list;
 }
@@ -217,7 +199,7 @@ web_block_info* get_ip(int *out_count) {
 void printf_to_file(const char *filename) {
     FILE *file = fopen(filename, "w");
     if (file == NULL) {
-        perror("Không thể mở file để ghi");
+        perror("Unable to open file");
         return;
     }
     int result_count = 0;
@@ -228,10 +210,24 @@ void printf_to_file(const char *filename) {
         return;
     }
     for (int i = 0; i < result_count; i++) {
-        fprintf(file, "%s\n", results[i].ip);
+        fprintf(file, "%s,%s,%s,%s,%s\n", results[i].ip, results[i].start_day, results[i].start_time, results[i].end_day, results[i].end_time);
     }
     fclose(file);
     free(results);
+}
+
+void printf_ip_and_time_to_console(){
+    int result_count = 0;
+    web_block_info *list = get_ip(&result_count);
+    for(int i=0;i<result_count;i++){
+        printf("%s\n",list[i].ip);
+        printf("%s\n",list[i].start_day);
+        printf("%s\n",list[i].start_time);
+        printf("%s\n",list[i].end_day);
+        printf("%s\n",list[i].end_time);
+        printf("\n");
+    }
+
 }
 
 

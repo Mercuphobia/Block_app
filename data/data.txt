@@ -1,512 +1,876 @@
-TIME: 01:06:32 DATE:09-10-2024
+TIME: 10:38:10 DATE:10-10-2024
+Name: vpn.mozilla.org
+IPv4 Address: 34.102.244.91
+--------------------------------
+TIME: 10:38:10 DATE:10-10-2024
+Name: vpn.mozilla.org
+IPv4 Address: 34.102.244.91
+--------------------------------
+TIME: 10:38:10 DATE:10-10-2024
+Name: vpn.mozilla.org
+IPv4 Address: 34.102.244.91
+--------------------------------
+TIME: 10:38:23 DATE:10-10-2024
 Name: dantri.com.vn
 IPv4 Address: 14.225.2.12
 --------------------------------
-TIME: 01:06:32 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: dantri.com.vn
 IPv4 Address: 14.225.2.12
 --------------------------------
-TIME: 01:06:32 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: dantri.com.vn
 IPv4 Address: 14.225.2.12
 --------------------------------
-TIME: 01:06:32 DATE:09-10-2024
-Name: dantri.com.vn
-IPv4 Address: 14.225.2.13
---------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: www.googletagmanager.com
-IPv4 Address: 142.250.197.136
+IPv4 Address: 142.250.199.200
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: www.googletagmanager.com
-IPv4 Address: 142.250.197.136
+IPv4 Address: 142.250.199.200
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: www.googletagmanager.com
-IPv4 Address: 142.250.197.136
+IPv4 Address: 142.250.199.200
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
+Name: securepubads.g.doubleclick.net
+IPv4 Address: 142.250.199.194
+--------------------------------
+TIME: 10:38:23 DATE:10-10-2024
+Name: securepubads.g.doubleclick.net
+IPv4 Address: 142.250.199.194
+--------------------------------
+TIME: 10:38:23 DATE:10-10-2024
+Name: securepubads.g.doubleclick.net
+IPv4 Address: 142.250.199.194
+--------------------------------
+TIME: 10:38:23 DATE:10-10-2024
 Name: logsbin.dantri.com.vn
 IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: logsbin.dantri.com.vn
 IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: logsbin.dantri.com.vn
 IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
-Name: securepubads.g.doubleclick.net
-IPv4 Address: 142.250.198.162
---------------------------------
-TIME: 01:06:33 DATE:09-10-2024
-Name: securepubads.g.doubleclick.net
-IPv4 Address: 142.250.198.162
---------------------------------
-TIME: 01:06:33 DATE:09-10-2024
-Name: securepubads.g.doubleclick.net
-IPv4 Address: 142.250.198.162
---------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: tracking.dantri.com.vn
 IPv4 Address: 42.113.206.15
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: tracking.dantri.com.vn
 IPv4 Address: 42.113.206.15
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
+TIME: 10:38:23 DATE:10-10-2024
 Name: tracking.dantri.com.vn
 IPv4 Address: 42.113.206.15
 --------------------------------
-TIME: 01:06:33 DATE:09-10-2024
-Name: logsbin.dantri.com.vn
-IPv4 Address: 42.113.206.24
---------------------------------
-TIME: 01:06:33 DATE:09-10-2024
-Name: logsbin.dantri.com.vn
-IPv4 Address: 42.113.206.24
---------------------------------
-TIME: 01:06:33 DATE:09-10-2024
-Name: logsbin.dantri.com.vn
-IPv4 Address: 42.113.206.24
---------------------------------
-TIME: 01:06:34 DATE:09-10-2024
+TIME: 10:38:25 DATE:10-10-2024
 Name: pro.ip-api.com
-IPv4 Address: 208.95.112.2
+IPv4 Address: 18.162.49.53
 --------------------------------
-TIME: 01:06:34 DATE:09-10-2024
+TIME: 10:38:25 DATE:10-10-2024
 Name: pro.ip-api.com
-IPv4 Address: 208.95.112.2
+IPv4 Address: 18.162.49.53
 --------------------------------
-TIME: 01:06:34 DATE:09-10-2024
+TIME: 10:38:25 DATE:10-10-2024
 Name: pro.ip-api.com
-IPv4 Address: 208.95.112.2
+IPv4 Address: 18.162.49.53
 --------------------------------
-TIME: 01:06:35 DATE:09-10-2024
+TIME: 10:38:26 DATE:10-10-2024
 Name: webapi.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:35 DATE:09-10-2024
+TIME: 10:38:26 DATE:10-10-2024
 Name: webapi.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:35 DATE:09-10-2024
+TIME: 10:38:26 DATE:10-10-2024
 Name: webapi.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:35 DATE:09-10-2024
-Name: webapi.dantri.com.vn
-IPv4 Address: 42.113.206.30
---------------------------------
-TIME: 01:06:35 DATE:09-10-2024
-Name: webapi.dantri.com.vn
-IPv4 Address: 42.113.206.30
---------------------------------
-TIME: 01:06:35 DATE:09-10-2024
-Name: webapi.dantri.com.vn
-IPv4 Address: 42.113.206.30
---------------------------------
-TIME: 01:06:35 DATE:09-10-2024
-Name: webapi.dantri.com.vn
-IPv4 Address: 42.113.206.30
---------------------------------
-TIME: 01:06:35 DATE:09-10-2024
-Name: webapi.dantri.com.vn
-IPv4 Address: 42.113.206.30
---------------------------------
-TIME: 01:06:35 DATE:09-10-2024
-Name: webapi.dantri.com.vn
-IPv4 Address: 42.113.206.30
---------------------------------
-TIME: 01:06:35 DATE:09-10-2024
+TIME: 10:38:27 DATE:10-10-2024
 Name: cdn.onesignal.com
 IPv4 Address: 104.16.160.145
 --------------------------------
-TIME: 01:06:35 DATE:09-10-2024
+TIME: 10:38:27 DATE:10-10-2024
 Name: cdn.onesignal.com
 IPv4 Address: 104.16.160.145
 --------------------------------
-TIME: 01:06:35 DATE:09-10-2024
+TIME: 10:38:27 DATE:10-10-2024
 Name: cdn.onesignal.com
 IPv4 Address: 104.16.160.145
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:27 DATE:10-10-2024
 Name: webapi.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:27 DATE:10-10-2024
 Name: webapi.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:27 DATE:10-10-2024
 Name: webapi.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:28 DATE:10-10-2024
 Name: api.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:28 DATE:10-10-2024
 Name: api.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:28 DATE:10-10-2024
 Name: api.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:28 DATE:10-10-2024
 Name: gadgets.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:28 DATE:10-10-2024
 Name: gadgets.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:28 DATE:10-10-2024
 Name: gadgets.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: onesignal.com
 IPv4 Address: 104.16.160.145
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: onesignal.com
 IPv4 Address: 104.16.160.145
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: onesignal.com
 IPv4 Address: 104.16.160.145
 --------------------------------
-TIME: 01:06:36 DATE:09-10-2024
-Name: sentry.dantri.com.vn
-IPv4 Address: 42.113.206.34
---------------------------------
-TIME: 01:06:36 DATE:09-10-2024
-Name: sentry.dantri.com.vn
-IPv4 Address: 42.113.206.34
---------------------------------
-TIME: 01:06:36 DATE:09-10-2024
-Name: sentry.dantri.com.vn
-IPv4 Address: 42.113.206.34
---------------------------------
-TIME: 01:06:37 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: login.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:37 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: login.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:37 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: login.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:37 DATE:09-10-2024
-Name: analytics.google.com
-IPv4 Address: 142.250.198.110
---------------------------------
-TIME: 01:06:37 DATE:09-10-2024
-Name: analytics.google.com
-IPv4 Address: 142.250.198.110
---------------------------------
-TIME: 01:06:37 DATE:09-10-2024
-Name: analytics.google.com
-IPv4 Address: 142.250.198.110
---------------------------------
-TIME: 01:06:37 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: www.google.com.vn
-IPv4 Address: 142.250.198.195
+IPv4 Address: 142.250.197.3
 --------------------------------
-TIME: 01:06:37 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: www.google.com.vn
-IPv4 Address: 142.250.198.195
+IPv4 Address: 142.250.197.3
 --------------------------------
-TIME: 01:06:37 DATE:09-10-2024
+TIME: 10:38:29 DATE:10-10-2024
 Name: www.google.com.vn
-IPv4 Address: 142.250.198.195
+IPv4 Address: 142.250.197.3
 --------------------------------
-TIME: 01:06:38 DATE:09-10-2024
+TIME: 10:38:31 DATE:10-10-2024
 Name: recommendation-api.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:38 DATE:09-10-2024
+TIME: 10:38:31 DATE:10-10-2024
 Name: recommendation-api.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:38 DATE:09-10-2024
+TIME: 10:38:31 DATE:10-10-2024
 Name: recommendation-api.dantri.com.vn
 IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:38 DATE:09-10-2024
+TIME: 10:38:31 DATE:10-10-2024
 Name: accounts.google.com
 IPv4 Address: 142.250.157.84
 --------------------------------
-TIME: 01:06:38 DATE:09-10-2024
+TIME: 10:38:31 DATE:10-10-2024
 Name: accounts.google.com
 IPv4 Address: 142.250.157.84
 --------------------------------
-TIME: 01:06:38 DATE:09-10-2024
+TIME: 10:38:31 DATE:10-10-2024
 Name: accounts.google.com
 IPv4 Address: 142.250.157.84
 --------------------------------
-TIME: 01:06:50 DATE:09-10-2024
-Name: i.ytimg.com
-IPv4 Address: 142.250.197.246
+TIME: 10:38:48 DATE:10-10-2024
+Name: sentry.dantri.com.vn
+IPv4 Address: 42.113.206.34
 --------------------------------
-TIME: 01:06:50 DATE:09-10-2024
-Name: i.ytimg.com
-IPv4 Address: 142.250.197.246
+TIME: 10:38:48 DATE:10-10-2024
+Name: sentry.dantri.com.vn
+IPv4 Address: 42.113.206.34
 --------------------------------
-TIME: 01:06:50 DATE:09-10-2024
-Name: i.ytimg.com
-IPv4 Address: 142.250.197.246
+TIME: 10:38:48 DATE:10-10-2024
+Name: sentry.dantri.com.vn
+IPv4 Address: 42.113.206.34
 --------------------------------
-TIME: 01:06:50 DATE:09-10-2024
-Name: fonts.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:48 DATE:10-10-2024
+Name: logsbin.dantri.com.vn
+IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:50 DATE:09-10-2024
-Name: fonts.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:48 DATE:10-10-2024
+Name: logsbin.dantri.com.vn
+IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:50 DATE:09-10-2024
-Name: fonts.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:48 DATE:10-10-2024
+Name: logsbin.dantri.com.vn
+IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:51 DATE:09-10-2024
-Name: fonts.gstatic.com
-IPv4 Address: 142.250.198.99
+TIME: 10:38:48 DATE:10-10-2024
+Name: logsbin.dantri.com.vn
+IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:51 DATE:09-10-2024
-Name: fonts.gstatic.com
-IPv4 Address: 142.250.198.99
+TIME: 10:38:48 DATE:10-10-2024
+Name: logsbin.dantri.com.vn
+IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:51 DATE:09-10-2024
-Name: fonts.gstatic.com
-IPv4 Address: 142.250.198.99
+TIME: 10:38:48 DATE:10-10-2024
+Name: logsbin.dantri.com.vn
+IPv4 Address: 42.113.206.24
 --------------------------------
-TIME: 01:06:51 DATE:09-10-2024
-Name: accounts.google.com
-IPv4 Address: 142.250.157.84
+TIME: 10:38:50 DATE:10-10-2024
+Name: webapi.dantri.com.vn
+IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:51 DATE:09-10-2024
-Name: accounts.google.com
-IPv4 Address: 142.250.157.84
+TIME: 10:38:50 DATE:10-10-2024
+Name: webapi.dantri.com.vn
+IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:51 DATE:09-10-2024
-Name: accounts.google.com
-IPv4 Address: 142.250.157.84
+TIME: 10:38:50 DATE:10-10-2024
+Name: webapi.dantri.com.vn
+IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:53 DATE:09-10-2024
-Name: googleads.g.doubleclick.net
-IPv4 Address: 142.250.197.66
+TIME: 10:38:50 DATE:10-10-2024
+Name: webapi.dantri.com.vn
+IPv4 Address: 42.113.206.30
 --------------------------------
-TIME: 01:06:53 DATE:09-10-2024
-Name: googleads.g.doubleclick.net
-IPv4 Address: 142.250.197.66
+TIME: 10:38:51 DATE:10-10-2024
+Name: sp.zalo.me
+IPv4 Address: 49.213.95.229
 --------------------------------
-TIME: 01:06:53 DATE:09-10-2024
-Name: googleads.g.doubleclick.net
-IPv4 Address: 142.250.197.66
+TIME: 10:38:51 DATE:10-10-2024
+Name: sp.zalo.me
+IPv4 Address: 49.213.95.229
 --------------------------------
-TIME: 01:06:54 DATE:09-10-2024
-Name: analytics.google.com
-IPv4 Address: 142.250.198.110
+TIME: 10:38:51 DATE:10-10-2024
+Name: sp.zalo.me
+IPv4 Address: 49.213.95.229
 --------------------------------
-TIME: 01:06:54 DATE:09-10-2024
-Name: analytics.google.com
-IPv4 Address: 142.250.198.110
---------------------------------
-TIME: 01:06:54 DATE:09-10-2024
-Name: analytics.google.com
-IPv4 Address: 142.250.198.110
---------------------------------
-TIME: 01:06:55 DATE:09-10-2024
-Name: www.google.com
-IPv4 Address: 142.250.71.164
---------------------------------
-TIME: 01:06:55 DATE:09-10-2024
-Name: www.google.com.vn
-IPv4 Address: 142.250.198.195
---------------------------------
-TIME: 01:06:55 DATE:09-10-2024
-Name: www.google.com
-IPv4 Address: 142.250.71.164
---------------------------------
-TIME: 01:06:55 DATE:09-10-2024
-Name: www.google.com
-IPv4 Address: 142.250.71.164
---------------------------------
-TIME: 01:06:55 DATE:09-10-2024
-Name: www.google.com.vn
-IPv4 Address: 142.250.198.195
---------------------------------
-TIME: 01:06:55 DATE:09-10-2024
-Name: www.google.com.vn
-IPv4 Address: 142.250.198.195
---------------------------------
-TIME: 01:06:55 DATE:09-10-2024
+TIME: 10:38:51 DATE:10-10-2024
 Name: www.google.com
 IPv4 Address: 142.250.198.164
 --------------------------------
-TIME: 01:06:56 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:38:51 DATE:10-10-2024
+Name: www.google.com
+IPv4 Address: 142.250.198.164
 --------------------------------
-TIME: 01:06:56 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:38:51 DATE:10-10-2024
+Name: www.google.com
+IPv4 Address: 142.250.198.164
 --------------------------------
-TIME: 01:06:56 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
---------------------------------
-TIME: 01:06:56 DATE:09-10-2024
+TIME: 10:38:52 DATE:10-10-2024
 Name: www.gstatic.com
-IPv4 Address: 142.250.196.227
+IPv4 Address: 142.250.197.3
 --------------------------------
-TIME: 01:06:56 DATE:09-10-2024
+TIME: 10:38:52 DATE:10-10-2024
 Name: www.gstatic.com
-IPv4 Address: 142.250.196.227
+IPv4 Address: 142.250.197.3
 --------------------------------
-TIME: 01:06:56 DATE:09-10-2024
+TIME: 10:38:52 DATE:10-10-2024
 Name: www.gstatic.com
-IPv4 Address: 142.250.196.227
+IPv4 Address: 142.250.197.3
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: jnn-pa.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:52 DATE:10-10-2024
+Name: za.zdn.vn
+IPv4 Address: 49.213.95.44
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: jnn-pa.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:52 DATE:10-10-2024
+Name: za.zdn.vn
+IPv4 Address: 49.213.95.44
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: jnn-pa.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:52 DATE:10-10-2024
+Name: za.zdn.vn
+IPv4 Address: 49.213.95.44
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: static.doubleclick.net
-IPv4 Address: 142.250.71.134
+TIME: 10:38:53 DATE:10-10-2024
+Name: za.zalo.me
+IPv4 Address: 49.213.95.247
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: static.doubleclick.net
-IPv4 Address: 142.250.71.134
+TIME: 10:38:53 DATE:10-10-2024
+Name: za.zalo.me
+IPv4 Address: 49.213.95.247
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: static.doubleclick.net
-IPv4 Address: 142.250.71.134
+TIME: 10:38:53 DATE:10-10-2024
+Name: za.zalo.me
+IPv4 Address: 49.213.95.247
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:38:54 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.198.163
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:38:54 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.198.163
 --------------------------------
-TIME: 01:06:58 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:38:54 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.198.163
 --------------------------------
-TIME: 01:06:59 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:38:55 DATE:10-10-2024
+Name: button-share.zalo.me
+IPv4 Address: 49.213.95.229
 --------------------------------
-TIME: 01:06:59 DATE:09-10-2024
-Name: jnn-pa.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:55 DATE:10-10-2024
+Name: button-share.zalo.me
+IPv4 Address: 49.213.95.229
 --------------------------------
-TIME: 01:06:59 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:38:55 DATE:10-10-2024
+Name: button-share.zalo.me
+IPv4 Address: 49.213.95.229
 --------------------------------
-TIME: 01:06:59 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:38:58 DATE:10-10-2024
+Name: fonts.googleapis.com
+IPv4 Address: 142.250.197.202
 --------------------------------
-TIME: 01:06:59 DATE:09-10-2024
-Name: jnn-pa.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:58 DATE:10-10-2024
+Name: fonts.googleapis.com
+IPv4 Address: 142.250.197.202
 --------------------------------
-TIME: 01:06:59 DATE:09-10-2024
-Name: jnn-pa.googleapis.com
-IPv4 Address: 142.250.198.42
+TIME: 10:38:58 DATE:10-10-2024
+Name: fonts.googleapis.com
+IPv4 Address: 142.250.197.202
 --------------------------------
-TIME: 01:07:00 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:39:03 DATE:10-10-2024
+Name: www.google-analytics.com
+IPv4 Address: 142.250.198.46
 --------------------------------
-TIME: 01:07:00 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:39:03 DATE:10-10-2024
+Name: www.google-analytics.com
+IPv4 Address: 142.250.198.46
 --------------------------------
-TIME: 01:07:00 DATE:09-10-2024
-Name: play.google.com
-IPv4 Address: 142.250.196.238
+TIME: 10:39:03 DATE:10-10-2024
+Name: www.google-analytics.com
+IPv4 Address: 142.250.198.46
 --------------------------------
-TIME: 01:07:02 DATE:09-10-2024
-Name: youtube.com
-IPv4 Address: 142.250.197.238
---------------------------------
-TIME: 01:07:02 DATE:09-10-2024
-Name: youtube.com
-IPv4 Address: 142.250.197.238
---------------------------------
-TIME: 01:07:02 DATE:09-10-2024
-Name: youtube.com
-IPv4 Address: 142.250.197.238
---------------------------------
-TIME: 01:07:09 DATE:09-10-2024
+TIME: 10:39:14 DATE:10-10-2024
 Name: vpn.mozilla.org
 IPv4 Address: 34.102.244.91
 --------------------------------
-TIME: 01:07:09 DATE:09-10-2024
+TIME: 10:39:14 DATE:10-10-2024
 Name: vpn.mozilla.org
 IPv4 Address: 34.102.244.91
 --------------------------------
-TIME: 01:07:09 DATE:09-10-2024
+TIME: 10:39:14 DATE:10-10-2024
 Name: vpn.mozilla.org
 IPv4 Address: 34.102.244.91
 --------------------------------
-TIME: 01:07:11 DATE:09-10-2024
-Name: github.com
-IPv4 Address: 20.205.243.166
+TIME: 10:39:15 DATE:10-10-2024
+Name: liquipedia.net
+IPv4 Address: 94.23.144.183
 --------------------------------
-TIME: 01:07:11 DATE:09-10-2024
-Name: github.com
-IPv4 Address: 20.205.243.166
+TIME: 10:39:15 DATE:10-10-2024
+Name: liquipedia.net
+IPv4 Address: 94.23.144.183
 --------------------------------
-TIME: 01:07:11 DATE:09-10-2024
-Name: github.com
-IPv4 Address: 20.205.243.166
+TIME: 10:39:15 DATE:10-10-2024
+Name: liquipedia.net
+IPv4 Address: 94.23.144.183
 --------------------------------
-TIME: 01:07:11 DATE:09-10-2024
-Name: github.githubassets.com
-IPv4 Address: 185.199.108.154
+TIME: 10:39:15 DATE:10-10-2024
+Name: liquipedia.net
+IPv4 Address: 94.23.144.183
 --------------------------------
-TIME: 01:07:11 DATE:09-10-2024
-Name: github.githubassets.com
-IPv4 Address: 185.199.108.154
+TIME: 10:39:15 DATE:10-10-2024
+Name: liquipedia.net
+IPv4 Address: 94.23.144.183
 --------------------------------
-TIME: 01:07:11 DATE:09-10-2024
-Name: github.githubassets.com
-IPv4 Address: 185.199.108.154
+TIME: 10:39:15 DATE:10-10-2024
+Name: liquipedia.net
+IPv4 Address: 94.23.144.183
 --------------------------------
-TIME: 01:07:19 DATE:09-10-2024
-Name: api.snapcraft.io
-IPv4 Address: 185.125.188.55
+TIME: 10:39:15 DATE:10-10-2024
+Name: liquipedia.net
+IPv4 Address: 94.23.144.183
 --------------------------------
-TIME: 01:07:19 DATE:09-10-2024
-Name: api.snapcraft.io
-IPv4 Address: 185.125.188.55
+TIME: 10:39:16 DATE:10-10-2024
+Name: www.googletagmanager.com
+IPv4 Address: 142.250.198.200
 --------------------------------
-TIME: 01:07:19 DATE:09-10-2024
-Name: api.snapcraft.io
-IPv4 Address: 185.125.188.55
+TIME: 10:39:16 DATE:10-10-2024
+Name: www.googletagmanager.com
+IPv4 Address: 142.250.198.200
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: www.googletagmanager.com
+IPv4 Address: 142.250.198.200
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: www.googletagmanager.com
+IPv4 Address: 142.250.198.200
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: www.googletagmanager.com
+IPv4 Address: 142.250.198.200
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: s.nitropay.com
+IPv4 Address: 104.18.3.78
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: s.nitropay.com
+IPv4 Address: 104.18.3.78
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: s.nitropay.com
+IPv4 Address: 104.18.3.78
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: s.nitropay.com
+IPv4 Address: 104.18.3.78
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: s.nitropay.com
+IPv4 Address: 104.18.3.78
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: s.nitropay.com
+IPv4 Address: 104.18.3.78
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: www.googletagmanager.com
+IPv4 Address: 142.250.198.200
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: www.googletagmanager.com
+IPv4 Address: 142.250.199.200
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: s.nitropay.com
+IPv4 Address: 104.18.2.78
+--------------------------------
+TIME: 10:39:16 DATE:10-10-2024
+Name: s.nitropay.com
+IPv4 Address: 104.18.3.78
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.76.3
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.76.3
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.76.3
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.76.3
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.76.3
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.198.163
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.197.131
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: safebrowsing.googleapis.com
+IPv4 Address: 142.250.71.138
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: safebrowsing.googleapis.com
+IPv4 Address: 142.250.71.138
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: safebrowsing.googleapis.com
+IPv4 Address: 142.250.71.138
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: safebrowsing.googleapis.com
+IPv4 Address: 142.250.71.138
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: safebrowsing.googleapis.com
+IPv4 Address: 142.250.71.138
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: safebrowsing.googleapis.com
+IPv4 Address: 142.250.198.42
+--------------------------------
+TIME: 10:39:17 DATE:10-10-2024
+Name: safebrowsing.googleapis.com
+IPv4 Address: 142.250.196.234
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: btloader.com
+IPv4 Address: 172.67.41.60
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: btloader.com
+IPv4 Address: 172.67.41.60
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: btloader.com
+IPv4 Address: 172.67.41.60
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: securepubads.g.doubleclick.net
+IPv4 Address: 142.250.199.194
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: securepubads.g.doubleclick.net
+IPv4 Address: 142.250.199.194
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: securepubads.g.doubleclick.net
+IPv4 Address: 142.250.199.194
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: tracker.nitropay.com
+IPv4 Address: 35.244.144.25
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: tracker.nitropay.com
+IPv4 Address: 35.244.144.25
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: tracker.nitropay.com
+IPv4 Address: 35.244.144.25
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: tracker.nitropay.com
+IPv4 Address: 35.244.144.25
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: tracker.nitropay.com
+IPv4 Address: 35.244.144.25
+--------------------------------
+TIME: 10:39:21 DATE:10-10-2024
+Name: tracker.nitropay.com
+IPv4 Address: 35.244.144.25
+--------------------------------
+TIME: 10:39:23 DATE:10-10-2024
+Name: consent.nitrocnct.com
+IPv4 Address: 104.21.33.230
+--------------------------------
+TIME: 10:39:23 DATE:10-10-2024
+Name: consent.nitrocnct.com
+IPv4 Address: 104.21.33.230
+--------------------------------
+TIME: 10:39:23 DATE:10-10-2024
+Name: consent.nitrocnct.com
+IPv4 Address: 104.21.33.230
+--------------------------------
+TIME: 10:39:23 DATE:10-10-2024
+Name: consent.nitrocnct.com
+IPv4 Address: 104.21.33.230
+--------------------------------
+TIME: 10:39:23 DATE:10-10-2024
+Name: consent.nitrocnct.com
+IPv4 Address: 104.21.33.230
+--------------------------------
+TIME: 10:39:23 DATE:10-10-2024
+Name: consent.nitrocnct.com
+IPv4 Address: 104.21.33.230
+--------------------------------
+TIME: 10:39:23 DATE:10-10-2024
+Name: consent.nitrocnct.com
+IPv4 Address: 104.21.33.230
+--------------------------------
+TIME: 10:39:24 DATE:10-10-2024
+Name: www.google-analytics.com
+IPv4 Address: 142.250.198.46
+--------------------------------
+TIME: 10:39:24 DATE:10-10-2024
+Name: www.google-analytics.com
+IPv4 Address: 142.250.198.46
+--------------------------------
+TIME: 10:39:24 DATE:10-10-2024
+Name: www.google-analytics.com
+IPv4 Address: 142.250.198.46
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: analytics.google.com
+IPv4 Address: 142.250.196.238
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: analytics.google.com
+IPv4 Address: 142.250.196.238
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: analytics.google.com
+IPv4 Address: 142.250.196.238
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: analytics.google.com
+IPv4 Address: 142.250.196.238
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: analytics.google.com
+IPv4 Address: 142.250.196.238
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.131
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.131
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.131
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.131
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.131
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.131
+--------------------------------
+TIME: 10:39:25 DATE:10-10-2024
+Name: analytics.google.com
+IPv4 Address: 142.250.199.206
+--------------------------------
+TIME: 10:39:46 DATE:10-10-2024
+Name: facebook.com
+IPv4 Address: 157.240.199.35
+--------------------------------
+TIME: 10:39:46 DATE:10-10-2024
+Name: facebook.com
+IPv4 Address: 157.240.199.35
+--------------------------------
+TIME: 10:39:46 DATE:10-10-2024
+Name: facebook.com
+IPv4 Address: 157.240.199.35
+--------------------------------
+TIME: 10:39:46 DATE:10-10-2024
+Name: facebook.com
+IPv4 Address: 157.240.199.35
+--------------------------------
+TIME: 10:39:46 DATE:10-10-2024
+Name: facebook.com
+IPv4 Address: 157.240.199.35
+--------------------------------
+TIME: 10:39:46 DATE:10-10-2024
+Name: facebook.com
+IPv4 Address: 157.240.199.35
+--------------------------------
+TIME: 10:39:46 DATE:10-10-2024
+Name: facebook.com
+IPv4 Address: 157.240.199.35
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: i.ytimg.com
+IPv4 Address: 142.250.76.22
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: i.ytimg.com
+IPv4 Address: 142.250.76.22
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: i.ytimg.com
+IPv4 Address: 142.250.76.22
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: fonts.googleapis.com
+IPv4 Address: 142.250.76.10
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: fonts.googleapis.com
+IPv4 Address: 142.250.76.10
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: fonts.googleapis.com
+IPv4 Address: 142.250.76.10
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.197.3
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.197.3
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: fonts.gstatic.com
+IPv4 Address: 142.250.197.3
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: accounts.google.com
+IPv4 Address: 142.251.10.84
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: accounts.google.com
+IPv4 Address: 142.251.10.84
+--------------------------------
+TIME: 10:39:52 DATE:10-10-2024
+Name: accounts.google.com
+IPv4 Address: 142.251.10.84
+--------------------------------
+TIME: 10:39:56 DATE:10-10-2024
+Name: googleads.g.doubleclick.net
+IPv4 Address: 142.250.197.226
+--------------------------------
+TIME: 10:39:56 DATE:10-10-2024
+Name: googleads.g.doubleclick.net
+IPv4 Address: 142.250.197.226
+--------------------------------
+TIME: 10:39:56 DATE:10-10-2024
+Name: googleads.g.doubleclick.net
+IPv4 Address: 142.250.197.226
+--------------------------------
+TIME: 10:39:59 DATE:10-10-2024
+Name: www.google.com
+IPv4 Address: 142.250.71.164
+--------------------------------
+TIME: 10:39:59 DATE:10-10-2024
+Name: www.google.com
+IPv4 Address: 142.250.71.164
+--------------------------------
+TIME: 10:39:59 DATE:10-10-2024
+Name: www.google.com
+IPv4 Address: 142.250.71.164
+--------------------------------
+TIME: 10:39:59 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.99
+--------------------------------
+TIME: 10:39:59 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.99
+--------------------------------
+TIME: 10:39:59 DATE:10-10-2024
+Name: www.google.com.vn
+IPv4 Address: 142.250.197.99
+--------------------------------
+TIME: 10:40:00 DATE:10-10-2024
+Name: www.gstatic.com
+IPv4 Address: 142.250.71.163
+--------------------------------
+TIME: 10:40:00 DATE:10-10-2024
+Name: www.gstatic.com
+IPv4 Address: 142.250.71.163
+--------------------------------
+TIME: 10:40:00 DATE:10-10-2024
+Name: www.gstatic.com
+IPv4 Address: 142.250.71.163
+--------------------------------
+TIME: 10:40:00 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
+--------------------------------
+TIME: 10:40:00 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
+--------------------------------
+TIME: 10:40:00 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
+--------------------------------
+TIME: 10:40:02 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:02 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:02 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:02 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:02 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:02 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: youtube.com
+IPv4 Address: 142.250.197.78
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: static.doubleclick.net
+IPv4 Address: 142.250.71.166
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: youtube.com
+IPv4 Address: 142.250.197.78
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: static.doubleclick.net
+IPv4 Address: 142.250.71.166
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: youtube.com
+IPv4 Address: 142.250.197.78
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: static.doubleclick.net
+IPv4 Address: 142.250.71.166
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
+--------------------------------
+TIME: 10:40:07 DATE:10-10-2024
+Name: jnn-pa.googleapis.com
+IPv4 Address: 142.250.197.234
+--------------------------------
+TIME: 10:40:09 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
+--------------------------------
+TIME: 10:40:09 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
+--------------------------------
+TIME: 10:40:09 DATE:10-10-2024
+Name: play.google.com
+IPv4 Address: 142.250.198.174
 --------------------------------

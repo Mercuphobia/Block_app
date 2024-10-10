@@ -1,6 +1,7 @@
 #define _POSIX_C_SOURCE 2
 #include <stdio.h>
 #include <stdlib.h>
+#include "log.h"
 
 void transfer_data(const char *input_file, const char *output_file) {
     FILE *fp1, *fp2;

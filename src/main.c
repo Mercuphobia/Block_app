@@ -14,13 +14,16 @@
 #define IP_FILE "./data/ip.txt"
 
 int main(int argc, char *argv[]) {
-    parsers_option(argc, argv);
-    transfer_data(SRC_DIR, DES_DIR);
-    //printf_block_web();
-    //print_data();
-    //printf_to_file(IP_FILE);
-    //printf_ip_and_time_to_console();
-    //create_ipset();
-    //block_ips_from_file(IP_FILE);
-    block_ips_by_time(IP_FILE);
+    if(argc > 1){
+        parsers_option(argc, argv);
+    }
+    else {
+        transfer_data(SRC_DIR, DES_DIR);
+        //printf_to_file(IP_FILE);
+        //printf_ip_and_time_to_console();
+        //create_ipset();
+        //block_ips_from_file(IP_FILE);
+        //block_ips_by_time(IP_FILE);
+        get_list_block_web_info();
+    }
 }

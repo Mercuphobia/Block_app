@@ -5,6 +5,8 @@
 #include <getopt.h>
 #include "log.h"
 #include "file_process.h"
+#include "parsers_data.h"
+#include "block_web.h"
 
 
 int scan_option = 0;
@@ -16,6 +18,7 @@ void print_help(){
     printf("Options:\n");
     printf("  -d, --debug <val>     Set log level (0=Disabled, 1=Error, 2=Warn, 3=Debug)\n");
     printf("  -h, --help            Print message information\n");
+    printf("  -r, --remove          Remove rules in iptales and ipset\n");
     LOG(LOG_LVL_ERROR, "test7: %s, %s, %d\n", __FILE__, __func__, __LINE__);
 }
 
@@ -28,8 +31,9 @@ void parsers_option(int argc, char *argv[])
             {
                 {"help", no_argument, 0, 'h'},
                 {"debug", required_argument, 0, 'd'},
+                {"remove", no_argument, 0, 'r'},
                 {0, 0, 0, 0}};
-        option = getopt_long(argc, argv, "hd:",long_options, &option_index);
+        option = getopt_long(argc, argv, "hd:r",long_options, &option_index);
         if (option == -1)
             break;
         switch (option)
@@ -52,6 +56,12 @@ void parsers_option(int argc, char *argv[])
             
         }
 
+        case 'r': 
+        {
+            printf("Removing ipset, iptables chain and iptables rules...\n");
+            delete__iptable_rules_chain_and_ipset();
+            break;
+        }
         case 'h':
             // log_level_set = 1;
             printf("Usage: %s [options] [target]...\n", argv[0]);

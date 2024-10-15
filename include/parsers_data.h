@@ -31,8 +31,8 @@ typedef struct {
 } web_block_info;
 
 website_block* read_block_web(const char *filename, int *line_count);
-void printf_block_web();
-void print_data();
+web_block_info* read_web_block_info(const char *filename, int *count);
 void printf_to_file(const char *filename);
+void printf_ip_and_time_to_console();
 
 #endif // PARSERS_DATA_H

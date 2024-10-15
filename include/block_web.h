@@ -1,11 +1,10 @@
 #ifndef BLOCK_WEB_H
 #define BLOCK_WEB_H
 
-void block_ips_from_file(const char *filename);
-void create_ipset();
-void printf_ip_and_time_to_console();
 
-void block_ips_by_time(const char *filename);
+void get_list_block_web_info();
+
+void delete__iptable_rules_chain_and_ipset();
 
 #endif // BLOCK_WEB_H
 

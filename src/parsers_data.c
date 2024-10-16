@@ -3,6 +3,9 @@
 #include "parsers_data.h"
 #include "log.h"
 
+#define DATA_TXT_PATH "./data/data.txt"
+#define BLOCK_WEB_TXT_PATH "./data/block_web.txt"
+
 char line[256];
 
 website_block* read_block_web(const char *filename, int *line_count) {
@@ -192,9 +195,9 @@ check* read_check_list(const char *filename, int *count) {
 
 web_block_info* get_ip(int *out_count) {
     int line_count = 0;
-    website_block *list_block = read_block_web("./data/block_web.txt", &line_count);
+    website_block *list_block = read_block_web(BLOCK_WEB_TXT_PATH, &line_count);
     int entry_count = 0;
-    website_info *list_info = read_data_file("./data/data.txt", &entry_count);
+    website_info *list_info = read_data_file(DATA_TXT_PATH, &entry_count);
     if (list_block == NULL || list_info == NULL) {
         *out_count = 0;
         return NULL;

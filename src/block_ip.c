@@ -7,6 +7,27 @@
 #include "log.h"
 #include "parsers_data.h"
 
+#define IPSET_LIST_NO_STDOUT "/userfs/bin/ipset list %s > /dev/null 2>&1"
+#define IPSET_CREATE "/userfs/bin/ipset create %s hash:ip"
+#define IPSET_ADD "/userfs/bin/ipset add %s %s"
+#define IPSET_DELETE_RULE "/userfs/bin/ipset destroy %s"
+
+#define IP_TABLES_ADD_INPUT "iptables -I INPUT -m set --match-set %s src -j DROP"
+#define IP_TABLES_ADD_OUTPUT "iptables -I OUTPUT -m set --match-set %s src -j DROP"
+#define IP_TABLES_ADD_FORWARD "iptables -I FORWARD -m set --match-set %s src -j DROP"
+
+#define IP_TABLES_DELETE_INPUT "iptables -D INPUT -m set --match-set %s src -j DROP"
+#define IP_TABLES_DELETE_OUTPUT "iptables -D OUTPUT -m set --match-set %s src -j DROP"
+#define IP_TABLES_DELETE_FORWARD "iptables -D FORWARD -m set --match-set %s src -j DROP"
+
+#define IP_TXT_PATH "./data/ip.txt"
+#define CHECK_TXT_PATH "./data/check.txt"
+
+#define REST_TIME_BETWEEN_RUN 30
+
+int num_struct = 0;
+char command[256];
+
 int get_day_number(const char* day) {
     if (strcmp(day, "Monday") == 0) return 0;
     if (strcmp(day, "Tuesday") == 0) return 1;
@@ -40,23 +61,20 @@ long get_current_time_in_seconds() {
 }
 
 int ipset_exists(const char* ipset_name) {
-    char command[256];
-    snprintf(command, sizeof(command), "/userfs/bin/ipset list %s > /dev/null 2>&1", ipset_name);
+    snprintf(command, sizeof(command), IPSET_LIST_NO_STDOUT, ipset_name);
     int result = system(command);
     return result == 0;
 }
 
 void create_ipset(const char* ipset_name) {
     if (!ipset_exists(ipset_name)) {
-        char command[256];
-        snprintf(command, sizeof(command), "/userfs/bin/ipset create %s hash:ip", ipset_name);
+        snprintf(command, sizeof(command), IPSET_CREATE, ipset_name);
         system(command);
     }
 }
 
 void add_ip_to_ipset(const char* ipset_name, const char* ip) {
-    char command[256];
-    snprintf(command, sizeof(command), "/userfs/bin/ipset add %s %s", ipset_name, ip);
+    snprintf(command, sizeof(command), IPSET_ADD, ipset_name, ip);
     system(command);
 }
 
@@ -81,14 +99,13 @@ bool is_line_in_file(FILE *file, const char *line) {
 }
 
 void get_list() {
-    int num_line = 0;
-    web_block_info *list = read_web_block_info("./data/ip.txt", &num_line);
-    FILE *check_file = fopen("./data/check.txt", "a+");
+    web_block_info *list = read_web_block_info(IP_TXT_PATH, &num_struct);
+    FILE *check_file = fopen(CHECK_TXT_PATH, "a+");
     if (check_file == NULL) {
         printf("Unable to open file\n");
         return;
     }
-    for (int i = 0; i < num_line; i++) {
+    for (int i = 0; i < num_struct; i++) {
         char ipset_name[256];
         snprintf(ipset_name, sizeof(ipset_name), "%s", list[i].url);
         create_ipset(ipset_name);
@@ -107,59 +124,56 @@ void get_list() {
 
 void run() {
     int num_struct = 0;
-    check *list = read_check_list("./data/check.txt", &num_struct);
+    check *list = read_check_list(CHECK_TXT_PATH, &num_struct);
     int *rule_active = malloc(num_struct * sizeof(int));
     memset(rule_active, 0, num_struct * sizeof(int));
     while (1) {
         time_t current_time = time(NULL);
-        long ld = get_current_time_in_seconds();
-        printf("Current time in seconds: %ld\n", ld);
+        long local_time = get_current_time_in_seconds();
+        //printf("Current time in seconds: %ld\n", ld);
         for (int i = 0; i < num_struct; i++) {
-            if (ld >= list[i].start_time_block && ld <= list[i].end_time_block) {
+            if (local_time >= list[i].start_time_block && local_time <= list[i].end_time_block) {
                 if (!rule_active[i]) {
                     char command[256];
-                    snprintf(command, sizeof(command), "iptables -I INPUT -m set --match-set %s src -j DROP", list[i].url);
+                    snprintf(command, sizeof(command), IP_TABLES_ADD_INPUT, list[i].url);
                     system(command);
-                    snprintf(command, sizeof(command), "iptables -I OUTPUT -m set --match-set %s src -j DROP", list[i].url);
+                    snprintf(command, sizeof(command), IP_TABLES_ADD_OUTPUT, list[i].url);
                     system(command);
-                    snprintf(command, sizeof(command), "iptables -I FORWARD -m set --match-set %s src -j DROP", list[i].url);
+                    snprintf(command, sizeof(command), IP_TABLES_ADD_FORWARD, list[i].url);
                     system(command);
                     rule_active[i] = 1;
                     printf("Added rule to block IP in ipset %s\n", list[i].url);
                 }
             } else {
                 if (rule_active[i]) {
-                    char command[256];
-                    snprintf(command, sizeof(command), "iptables -D INPUT -m set --match-set %s src -j DROP", list[i].url);
+                    snprintf(command, sizeof(command), IP_TABLES_DELETE_INPUT, list[i].url);
                     system(command);
-                    snprintf(command, sizeof(command), "iptables -D OUTPUT -m set --match-set %s src -j DROP", list[i].url);
+                    snprintf(command, sizeof(command), IP_TABLES_DELETE_OUTPUT, list[i].url);
                     system(command);
-                    snprintf(command, sizeof(command), "iptables -D FORWARD -m set --match-set %s src -j DROP", list[i].url);
+                    snprintf(command, sizeof(command), IP_TABLES_DELETE_FORWARD, list[i].url);
                     system(command);
                     rule_active[i] = 0;
                     printf("Removed rule to unblock IP in ipset %s\n", list[i].url);
                 }
             }
         }
-        sleep(10);
+        sleep(REST_TIME_BETWEEN_RUN);
     }
     free(rule_active);
     free(list);
 }
 
 void delete__iptable_rules_chain_and_ipset(){
-    char command[256];
-    int num_struct = 0;
-    check *list = read_check_list("./data/check.txt", &num_struct);
+    check *list = read_check_list(CHECK_TXT_PATH, &num_struct);
     for(int i=0;i<num_struct;i++){
         if(ipset_exists(list[i].url)){
-            snprintf(command, sizeof(command), "iptables -D INPUT -m set --match-set %s src -j DROP", list[i].url);
+            snprintf(command, sizeof(command), IP_TABLES_DELETE_INPUT, list[i].url);
             system(command);
-            snprintf(command, sizeof(command), "iptables -D OUTPUT -m set --match-set %s src -j DROP", list[i].url);
+            snprintf(command, sizeof(command), IP_TABLES_DELETE_OUTPUT, list[i].url);
             system(command);
-            snprintf(command, sizeof(command), "iptables -D FORWARD -m set --match-set %s src -j DROP", list[i].url);
+            snprintf(command, sizeof(command), IP_TABLES_DELETE_FORWARD, list[i].url);
             system(command);
-            snprintf(command, sizeof(command), "/userfs/bin/ipset destroy %s", list[i].url);
+            snprintf(command, sizeof(command), IPSET_DELETE_RULE, list[i].url);
             system(command);
         }
         else{

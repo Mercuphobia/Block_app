@@ -30,8 +30,16 @@ typedef struct {
 
 } web_block_info;
 
+typedef struct {
+    char url[MAX_LENGTH];
+    long start_time_block;
+    long end_time_block;
+
+} check;
+
 website_block* read_block_web(const char *filename, int *line_count);
 web_block_info* read_web_block_info(const char *filename, int *count);
+check* read_check_list(const char *filename, int *count);
 void printf_to_file(const char *filename);
 void printf_ip_and_time_to_console();
 

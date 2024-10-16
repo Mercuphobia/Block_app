@@ -145,6 +145,48 @@ web_block_info* read_web_block_info(const char *filename, int *count) {
 }
 
 
+check* read_check_list(const char *filename, int *count) {
+    check *list = NULL;
+    *count = 0;
+    int capacity = 10;
+    list = malloc(capacity * sizeof(check));
+    if (list == NULL) {
+        perror("Unable to allocate memory");
+        return NULL;
+    }
+
+    FILE *file = fopen(filename, "r");
+    if (file == NULL) {
+        perror("Unable to open file");
+        free(list);
+        return NULL;
+    }
+
+    char line[MAX_LENGTH];
+    while (fgets(line, sizeof(line), file)) {
+        if (*count >= capacity) {
+            capacity *= 2;
+            list = realloc(list, capacity * sizeof(check));
+            if (list == NULL) {
+                perror("Unable to allocate memory");
+                fclose(file);
+                return NULL;
+            }
+        }
+        line[strcspn(line, "\n")] = '\0';
+        sscanf(line, "%[^,], %ld, %ld",
+               list[*count].url,
+               &list[*count].start_time_block,
+               &list[*count].end_time_block);
+
+        (*count)++;
+    }
+
+    fclose(file);
+    return list;
+}
+
+
 // ----------- check function -----------//
 // start check_function
 
